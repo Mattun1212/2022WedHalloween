@@ -1,0 +1,14 @@
+.center_vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+mentor_icon {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
