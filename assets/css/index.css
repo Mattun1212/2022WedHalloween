@@ -1,5 +1,28 @@
+@font-face {
+	font-family: 'AntroVectra';
+	src: url("../../assets/font/Antro_Vectra.otf")
+}
+@font-face {
+    font-family: 'LINESeedJP';
+    src: url("../../assets/font/LINE.otf");
+}
+
 * {
-    background-color: #19043C;
+    background-color: #fff;
+}
+
+.top_image{
+    margin: 50px 10%;
+    width: 80%;
+    height: 800px;
+    object-fit: cover;
+}
+
+.top_title{
+    padding: 20px 50px;
+    -webkit-text-stroke: 2px #000;
+    font-size: 75px;
+    font-family: 'LINESeedJP';
 }
 
 .mentor_page {
