@@ -7,8 +7,9 @@
     src: url("../../assets/font/LINE.otf");
 }
 
-* {
-    background-color: #fff;
+*{
+    margin: 0;
+    padding: 0;
 }
 
 .top_image{
@@ -19,10 +20,49 @@
 }
 
 .top_title{
-    padding: 20px 50px;
+    transform: translate(0, -200px);
+    margin-left: 55%;
+    padding: 10px 30px;
     -webkit-text-stroke: 2px #000;
     font-size: 75px;
     font-family: 'LINESeedJP';
+    background-color: #ffffff;
+    color:rgba(255,255,255,0);
+    text-shadow: 10px 0px #FFFCAB;
+}
+
+.sub_title{
+    -webkit-text-stroke: 2px #000;
+    font-size: 75px;
+    font-family: 'LINESeedJP';
+    color: #fff;
+}
+
+.mentors_box{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mentor_content{
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.mentor_content img{
+    position: absolute;
+    z-index: -5;
+    margin-left: 19px;
+}
+
+.mentor_number{
+    position: absolute;
+    z-index: 0;
+    font-family: 'AntroVectra';
+    font-size: 68px;
+    color: #000;
+    transform: translate(0, -50px);
 }
 
 .mentor_page {
@@ -37,18 +77,9 @@
 h3.title {
     margin: auto;
     border-radius: 5px;
-    background-color: white;
     color: black;
 }
 
 .mentor_icon {
     border-radius: 10px;
-}
-
-h1 {
-    color: white;
-}
-
-h2 {
-    color: white;
 }
