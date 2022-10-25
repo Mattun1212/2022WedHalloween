@@ -1,0 +1,18 @@
+.mentor_icon {
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.center-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mentor_page {
+    display: flex;
+    justify-content: space-around;
+}
