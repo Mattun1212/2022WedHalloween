@@ -1,18 +1,31 @@
-.mentor_icon {
-    width: 140px;
-    height: 140px;
-    border-radius: 70px;
-    margin-left: 0px;
-    margin-top: 0px;
-}
-
-.center-vertical {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+* {
+    background-color: #19043C;
 }
 
 .mentor_page {
     display: flex;
     justify-content: space-around;
+}
+
+.mentor_text {
+    text-align: left;
+}
+
+h3.title {
+    margin: auto;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+.mentor_icon {
+    border-radius: 10px;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
 }
