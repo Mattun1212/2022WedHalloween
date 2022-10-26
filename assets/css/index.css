@@ -6,6 +6,10 @@
     font-family: 'LINESeedJP';
     src: url("../../assets/font/LINE.otf");
 }
+@font-face {
+    font-family: 'LINESeedJP-regular';
+    src: url("../../assets/font/LINE_Rg.otf");
+}
 
 *{
     margin: 0;
@@ -39,9 +43,18 @@
 }
 
 .mentors_box{
-    padding: 50px;
+    margin: 0 10%;
+    width: 80%;
+    padding-top: 150px;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.mentors_box a{
+    width: 300px;
+    margin: 0 50px;
+    margin-bottom: 150px;
 }
 
 .mentor_content{
@@ -64,6 +77,30 @@
     font-size: 68px;
     color: #000;
     transform: translate(0, -50px);
+}
+.mentor_course{
+    position: absolute;
+    text-align: right;
+    z-index: 0;
+    font-family: 'LINESeedJP-regular';
+    font-size: 16px;
+    color: #FFF;
+    bottom: 0;
+    right: 0;
+    margin-right: 5px;
+    transform: translate(0, -50px);
+}
+.mentor_name{
+    position: absolute;
+    text-align: right;
+    z-index: 0;
+    font-family: 'LINESeedJP-regular';
+    font-size: 34px;
+    color: #FFF;
+    bottom: 0;
+    right: 0;
+    margin-right: 5px;
+    transform: translate(0, -10px);
 }
 
 .mentor_page {
