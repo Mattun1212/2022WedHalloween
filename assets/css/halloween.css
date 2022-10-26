@@ -155,6 +155,28 @@ body{
    
 }
 
+.modaal-container{
+    background-color: #FA840A !important;
+    
+}
+
+.modal_mentor {
+    margin-bottom: 30px;
+}
+
+.modal_title {
+    background-color: #FFA226;
+    color: #000;
+    font-family: 'LINE_Rg';
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.modal_content {
+    font-family: 'LINE_Rg';
+    margin-top: 10px;
+}
+
 .mentors{
     position: relative;
 }
@@ -259,6 +281,7 @@ body{
 
 .mentor_text {
     text-align: left;
+    color: #000;
 }
 
 h3.title {
@@ -269,7 +292,9 @@ h3.title {
 
 .mentor_icon {
     border-radius: 10px;
+    width: 400px;
 }
+
 
 .anya2{
     width: 400px;
