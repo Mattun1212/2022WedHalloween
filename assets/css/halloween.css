@@ -275,13 +275,16 @@ body{
 }
 
 .mentor_page {
+    width: 1000px;
+    padding: 0 30px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .mentor_text {
-    text-align: left;
-    color: #000;
+    width: 400px;
+    font-family: 'LINE_Rg';
 }
 
 h3.title {
