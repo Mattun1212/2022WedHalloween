@@ -1,0 +1,282 @@
+@font-face {
+	font-family: 'AntroVectra';
+	src: url("../../assets/font/Antro_Vectra.otf")
+}
+@font-face {
+    font-family: 'LINESeedJP';
+    src: url("../../assets/font/LINE.otf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+}
+
+body{
+    background-color: #19043C;
+}
+
+.header{
+    background-image: url("/assets/image/haikei.png");
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+
+.sen{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translateY(-50%) translateX(-50%);
+    text-align: center;
+}
+
+.logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    transform: translateY(-50%) translateX(-50%);
+    text-align: center;
+}
+
+.overview{
+    position: relative;
+}
+
+.flag{
+    position: absolute;
+    top: -25%;
+    right: 0%;
+    width: 30%;
+}
+.pumpkin1{
+    position: absolute;
+    top: -20%;
+    right: 0%;
+    width: 15%;
+    transform:rotate(20deg);
+}
+
+.bat{
+    position: absolute;
+    bottom: 45%;
+    left: 8%;
+    width: 15%;
+}
+
+.anya1{
+    position: absolute;
+    bottom: 20%;
+    left: 8%;
+    width: 45%;
+}
+
+.ghost{
+    position: absolute;
+    bottom: 0%;
+    right: 5%;
+    width: 30%;
+}
+.sub_title{
+    -webkit-text-stroke: 1.5px #FFF;
+    font-size: 60px;
+    font-family: 'LINESeedJP';
+    color: transparent;
+    margin-top: 15%;
+    margin-left: 10%;
+    position: relative;
+    z-index: 0;
+}
+.sub_title::before{
+    content:''; 
+	height:30px; 
+	width: 590px;
+	display:block; 
+	position:absolute; 
+	bottom:13px; 
+	left:0px; 
+	background-color: #FA840A;
+	box-shadow: 0px 3px 3px 3px #FA840A inset;
+    z-index: -5;
+}
+
+.underline{
+    color: transparent;
+}
+
+.disc{
+    margin-left: 10%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-family: 'LINESeedJP-regular';
+    font-size: 30px;
+}
+
+.border{
+    margin-left: 10%;
+    margin-right: 20px;
+    margin-top: 100px;
+    width: 3px;
+    height: 225px;
+    border-left: #FFF 1px solid;
+    float: left;
+}
+
+.scroll{
+    font-size: 32px;
+    width: 420px;
+    font-family: 'LINESeedJP-thin';
+    transform: translate(0, 80px) rotate(90deg);
+    margin-right: 0;
+}
+
+.sub_image{
+    transform: translate(0,-500px);
+    width: 40%;
+    height: 500px;
+    object-fit: cover;
+    margin-left: 50%;
+    clear: both;
+   
+}
+
+.mentors{
+    position: relative;
+}
+
+.hat_relative { 
+    position: relative;
+}
+
+.hat{
+    position: absolute;
+    width: 160px;
+    top: -60%;
+    left: 60%;
+    transform:rotate(40deg);
+    z-index: -20;
+
+}
+
+.purple_square{
+    position: absolute;
+    background: #250D4B;
+    width: 80vw;
+    top: 60px;
+    left: 10vw;
+    bottom: 0;
+    z-index: -20;
+}
+
+.mentor_title{
+    text-align: center;
+    -webkit-text-stroke: 2px #FA840A;
+    font-size: 75px;
+    font-family: 'LINESeedJP';
+    color: transparent;
+}
+
+.mentors_box{
+    margin: 0 10%;
+    width: 80%;
+    padding-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.mentors_box a{
+    width: 300px;
+    margin: 0 50px;
+    margin-bottom: 150px;
+}
+
+.mentor_content{
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.mentor_content img{
+    position: absolute;
+    z-index: -5;
+    margin-left: 19px;
+    width: 280px;
+}
+
+.mentor_number{
+    position: absolute;
+    z-index: 0;
+    font-family: 'AntroVectra';
+    font-size: 68px;
+    color: #FA840A;
+    transform: translate(0, -50px);
+}
+.mentor_course{
+    position: absolute;
+    text-align: right;
+    z-index: 0;
+    font-family: 'LINESeedJP-regular';
+    font-size: 16px;
+    color: #FA840A;
+    bottom: 0;
+    right: 0;
+    margin-right: 5px;
+    transform: translate(0, -50px);
+}
+.mentor_name{
+    position: absolute;
+    text-align: right;
+    z-index: 0;
+    font-family: 'LINESeedJP-regular';
+    font-size: 34px;
+    color: #FA840A;
+    bottom: 0;
+    right: 0;
+    margin-right: 5px;
+    transform: translate(0, -10px);
+}
+
+.mentor_page {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mentor_text {
+    text-align: left;
+}
+
+h3.title {
+    margin: auto;
+    border-radius: 5px;
+    color: black;
+}
+
+.mentor_icon {
+    border-radius: 10px;
+}
+
+.anya2{
+    width: 400px;
+    
+    margin-bottom: 150px;
+}
+
+.anya2 img{
+    width: 100%;
+    padding: auto 0;
+}
+
+footer p{
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    font-size: 1rem;
+    text-align: center;
+    color: #FA840A;
+}
