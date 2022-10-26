@@ -1,5 +1,174 @@
-* {
-    background-color: #19043C;
+@font-face {
+	font-family: 'AntroVectra';
+	src: url("../../assets/font/Antro_Vectra.otf")
+}
+@font-face {
+    font-family: 'LINESeedJP';
+    src: url("../../assets/font/LINE.otf");
+}
+@font-face {
+    font-family: 'LINESeedJP-regular';
+    src: url("../../assets/font/LINE_Rg.otf");
+}
+@font-face {
+    font-family: 'LINESeedJP-thin';
+    src: url("../../assets/font/LINE_Th.otf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top_image{
+    margin: 50px 10%;
+    width: 80%;
+    height: 800px;
+    object-fit: cover;
+}
+
+.top_title{
+    transform: translate(0, -200px);
+    margin-left: 55%;
+    padding: 10px 30px;
+    -webkit-text-stroke: 2px #000;
+    font-size: 75px;
+    font-family: 'LINESeedJP';
+    background-color: #ffffff;
+    color:rgba(255,255,255,0);
+    text-shadow: 10px 0px #FFFCAB;
+}
+
+.top_course{
+    margin-left: 10%;
+    transform: translate(0, -50px);
+    font-size: 20px;
+    font-family: 'LINESeedJP-regular';
+}
+
+.sub_title{
+    -webkit-text-stroke: 2px #000;
+    font-size: 75px;
+    font-family: 'LINESeedJP';
+    color: #fff;
+    margin-left: 10%;
+    position: relative;
+    z-index: 0;
+}
+.sub_title::before{
+    content:''; 
+	height:30px; 
+	width: 370px;
+	display:block; 
+	position:absolute; 
+	bottom:13px; 
+	left:0px; 
+	background-color: #FFFCAB;
+	box-shadow: 0px 3px 3px 3px #FFFCAB inset;
+    z-index: -5;
+}
+
+.disc{
+    margin-left: 10%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-family: 'LINESeedJP-regular';
+    font-size: 30px;
+}
+
+.border{
+    margin-left: 10%;
+    margin-right: 20px;
+    margin-top: 100px;
+    width: 3px;
+    height: 225px;
+    border-left: #000 1px solid;
+    float: left;
+}
+
+.scroll{
+    font-size: 32px;
+    width: 420px;
+    font-family: 'LINESeedJP-thin';
+    transform: translate(0, 80px) rotate(90deg);
+}
+
+.sub_image{
+    transform: translate(0,-500px);
+    width: 40%;
+    height: 500px;
+    object-fit: cover;
+    margin-left: 50%;
+    clear: both;
+}
+
+.mentor_title{
+    text-align: center;
+    -webkit-text-stroke: 2px #000;
+    font-size: 75px;
+    font-family: 'LINESeedJP';
+    color: #fff;
+}
+
+.mentors_box{
+    margin: 0 10%;
+    width: 80%;
+    padding-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.mentors_box a{
+    width: 300px;
+    margin: 0 50px;
+    margin-bottom: 150px;
+}
+
+.mentor_content{
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.mentor_content img{
+    position: absolute;
+    z-index: -5;
+    margin-left: 19px;
+    width: 280px;
+}
+
+.mentor_number{
+    position: absolute;
+    z-index: 0;
+    font-family: 'AntroVectra';
+    font-size: 68px;
+    color: #000;
+    transform: translate(0, -50px);
+}
+.mentor_course{
+    position: absolute;
+    text-align: right;
+    z-index: 0;
+    font-family: 'LINESeedJP-regular';
+    font-size: 16px;
+    color: #FFF;
+    bottom: 0;
+    right: 0;
+    margin-right: 5px;
+    transform: translate(0, -50px);
+}
+.mentor_name{
+    position: absolute;
+    text-align: right;
+    z-index: 0;
+    font-family: 'LINESeedJP-regular';
+    font-size: 34px;
+    color: #FFF;
+    bottom: 0;
+    right: 0;
+    margin-right: 5px;
+    transform: translate(0, -10px);
 }
 
 .mentor_page {
@@ -14,18 +183,9 @@
 h3.title {
     margin: auto;
     border-radius: 5px;
-    background-color: white;
     color: black;
 }
 
 .mentor_icon {
     border-radius: 10px;
-}
-
-h1 {
-    color: white;
-}
-
-h2 {
-    color: white;
 }
