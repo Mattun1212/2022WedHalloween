@@ -44,21 +44,50 @@ body{
     text-align: center;
 }
 
-.flag{
-    position: absolute;
-    top: 95%;
-    right: 0%;
-    width: 20%;
+.overview{
+    position: relative;
 }
 
+.flag{
+    position: absolute;
+    top: -25%;
+    right: 0%;
+    width: 30%;
+}
+.pumpkin1{
+    position: absolute;
+    top: -20%;
+    right: 0%;
+    width: 15%;
+    transform:rotate(20deg);
+}
 
+.bat{
+    position: absolute;
+    bottom: 45%;
+    left: 8%;
+    width: 15%;
+}
 
+.anya1{
+    position: absolute;
+    bottom: 20%;
+    left: 8%;
+    width: 45%;
+}
+
+.ghost{
+    position: absolute;
+    bottom: 0%;
+    right: 5%;
+    width: 30%;
+}
 .sub_title{
     -webkit-text-stroke: 1.5px #FFF;
     font-size: 60px;
     font-family: 'LINESeedJP';
     color: transparent;
-    margin-top: 20%;
+    margin-top: 15%;
     margin-left: 10%;
     position: relative;
     z-index: 0;
@@ -103,6 +132,7 @@ body{
     width: 420px;
     font-family: 'LINESeedJP-thin';
     transform: translate(0, 80px) rotate(90deg);
+    margin-right: 0;
 }
 
 .sub_image{
