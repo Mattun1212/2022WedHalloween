@@ -50,7 +50,7 @@
     -webkit-text-stroke: 2px #000;
     font-size: 75px;
     font-family: 'LINESeedJP';
-    color: #fff;
+    color: transparent;
     margin-left: 10%;
     position: relative;
     z-index: 0;
@@ -122,8 +122,8 @@
 }
 
 .mentors_box a{
-    width: 300px;
-    margin: 0 50px;
+    width: 300px; 
+    margin: 0 40px;
     margin-bottom: 150px;
 }
 
@@ -174,12 +174,16 @@
 }
 
 .mentor_page {
+    width: 1000px;
+    padding: 0 30px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .mentor_text {
-    text-align: left;
+    width: 400px;
+    font-family: 'LINE_Rg';
 }
 
 h3.title {
@@ -189,7 +193,27 @@ h3.title {
 }
 
 .mentor_icon {
-    border-radius: 10px;
+    width: 400px;
+}
+
+.modal_mentor {
+    margin-bottom: 30px;
+}
+.modal_title {
+    background-color: #000;
+    color: #fff;
+    font-family: 'LINE_Rg';
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.modal_content {
+    font-family: 'LINE_Rg';
+    margin-top: 10px;
+}
+.footer_p{
+    color: #000;
+    text-align: center;
 }
 
 .trick{
