@@ -12,12 +12,42 @@
     padding: 0;
 }
 
-.top_image{
-    margin: 50px 10%;
-    width: 80%;
-    height: 800px;
-    object-fit: cover;
+.header{
+    background-image: url("/assets/image/haikei.png");
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+   
 }
+.contents{
+    background-color: #250D4B;
+}
+
+.sen{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width:100%;
+    text-align: center;
+}
+
+.logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    transform: translateY(-50%) translateX(-50%);
+    text-align: center;
+}
+
+.flag{
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    width: 20%;
+}
+
+
 
 .top_title{
     transform: translate(0, -200px);
