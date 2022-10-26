@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0, minimum-scale=1.0">
+    
+    <title>水曜スクール</title>
+    <link rel="stylesheet" href="/assets/css/halloween.css">
+
+<!--    jqueryの読み込み-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+<!--    OGPの設定-->
+    <meta property="og:title" content="Wednesday School" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lit-wedschool-halloween2022.com" />
+    <meta property="og:image" content="https://lit-wedschool-halloween2022/assets/images/ogp.png" />
+    <meta property="og:site_name" content="水曜スクール" />
+    <meta property="og:description" content="2022年秋学期水曜スクール" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+</head>
+<body>
+    <section class="header">
+        <img class="sen" src="/assets/image/sen.png">
+        <img class="logo" src="/assets/image/logo.png">
+        <img class="flag" src="/assets/image/flag.png">
+        <img class="pumpkin1" src="/assets/image/pumpkin1.png">
+    </section>
+
+    <section class="contents">
+    <h2 class="sub_title"><span class="underline">たかにゃわはろうぃん</span>へようこそ。</h2>
+    <p>この館にはねずみに仕える、<br>たくさんの学生が住んでいます。<br>みなさんも彼らの生態をちょこっと覗いてみませんか。</p>
+
+    <h2 class="sub_title" style="text-align: center;">Mentors</h2>
+    <div class="mentors_box">
+        <a href="#as_modal" class="as_modal">
+            <div class="mentor_content">
+                <h3 class="mentor_number">01</h3>
+                <img src="assets/image/as.png">
+            </div>
+        </a>
+        <a href="#toppo_modal" class="toppo_modal">
+            <div class="mentor_content">
+                <h3 class="mentor_number">02</h3>
+                <img src="assets/image/toppo.png">
+            </div>
+        </a>
+        <a href="#sasashun_modal" class="sasashun_modal">
+            <div class="mentor_content">
+                <h3 class="mentor_number">03</h3>
+                <img src="assets/image/sasashun.png">
+                
+            </div>
+        </a>
+    </div>
+    <div id="as_modal" class="mentor_page" style="display: none;">
+        <img src="assets/image/as.png" class="mentor_icon" style="margin-top: 20px;">
+
+        <div class="mentor_text">
+            <h1 style="color: white;">えーえす</h1>
+            <!--↓ここを繰り返して幾つかの項目？を表示しようとしてました-->
+            <h3 class="title">技術</h3>
+            <h2>Swift</h2>
+            <!--↑-->
+        </div>
+    </div>
+    </section>
+<!--    modaalの読み込み -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modaal@0.4.4/dist/css/modaal.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/modaal@0.4.4/dist/js/modaal.min.js"></script>
+
+    <script>
+        $(".as_modal").modaal({
+            content_source: '#as_modal'
+        });
+    </script>
+</body>
+</html>
